@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#heading-parent{
+    background-image: linear-gradient(45deg, cadetblue, transparent, khaki), url('../assets/img/Minimalist-nature-art.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    height: 600px;
+    width: 1180px;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: goldenrod;
+    padding-top: 30px;
+}
+.btn-parent{
+    text-align: center;   
+}
+.btn{
+    background-color: peachpuff;
+    border: 3px solid goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 20px;
+    color: teal;
+    margin-top: 20px;
+}
+.btn:hover{
+    background-color: cadetblue;
+    color: khaki;
+    transition: all 0.5s;
+    cursor: pointer;
+}
